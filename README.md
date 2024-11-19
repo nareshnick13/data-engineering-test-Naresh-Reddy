@@ -12,19 +12,19 @@ Create an ETL (Extract, Transform, Load) pipeline that:
 
 ## Dataset
 The sample dataset (`data/sales_data.csv`) contains retail sales information with the following columns:
-- `transaction_id`: Unique identifier for each sale
+- `transaction_id`: transaction Id for each sale
 - `date`: Transaction date
-- `product_id`: Product identifier
-- `category`: Product category
-- `amount`: Sale amount
-- `customer_id`: Customer identifier
-- `store_id`: Store identifier
+- `product_id`: Product ID
+- `category`:  category
+- `amount`:  amount
+- `customer_id`: Customer Id
+- `store_id`: Store ID
 
 ## Requirements
 
 ### Technical Requirements
-- Python 3.8+
-- Required packages: pandas, sqlite3, pytest
+- Python 
+- packages: pandas, sqlite3, pytest
   
 ### Functional Requirements
 1. Data Validation
@@ -36,7 +36,14 @@ The sample dataset (`data/sales_data.csv`) contains retail sales information wit
    - Convert dates to ISO format
    - Aggregate sales by category and store
    - Calculate daily revenue metrics
-   
-3. Data Loading
+       
+4. Data Loading
    - Store processed data in SQLite database
    - Create appropriate indexes for efficient querying
+
+ #### References
+   1. https://stackoverflow.com/
+   2. https://www.w3schools.com/python/
+   3. https://www.codeconvert.ai/csharp-to-python-converter
+   4. https://medium.com/@devedium/python-crash-course-for-c-developers-a-quick-reference-guide-86ca519b83c8
+   5. https://www.google.com/search?q=python+pipeline+read+data+from+csv&oq=python+pipeline+read+data+from+csv+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTEyMDU1ajBqMagCALACAA&sourceid=chrome&ie=UTF-8
